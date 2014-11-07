@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Yosef\IdeaProjects\Cloudflare Updater\out\artifacts\Cloudflare_Updater_jar\Cloudflare Updater.jar</jar>
+  <outfile>C:\Users\Yosef\IdeaProjects\Cloudflare Updater\out\artifacts\Cloudflare_Updater_jar\CloudflareUpdater.exe</outfile>
+  <errTitle>You don&apos;t have java, Please download Java 1.6+.</errTitle>
+  <cmdLine/>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl>http://duckip.info</supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest/>
+  <icon>C:\Users\Yosef\IdeaProjects\Cloudflare Updater\src\Resources\images\logoicon.ico</icon>
+  <singleInstance>
+    <mutexName>CloudflareUpdater</mutexName>
+    <windowTitle>CloudFlareUpdater</windowTitle>
+  </singleInstance>
+  <jre>
+    <path/>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <minVersion>1.4.5</minVersion>
+    <maxVersion/>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+</launch4jConfig>

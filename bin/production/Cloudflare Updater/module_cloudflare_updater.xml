@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_cloudflare_updater" default="compile.module.cloudflare_updater">
+    <dirname property="module.cloudflare_updater.basedir" file="${ant.file.module_cloudflare_updater}"/>
+
+    <property name="module.jdk.home.cloudflare_updater" value="${project.jdk.home}"/>
+    <property name="module.jdk.bin.cloudflare_updater" value="${project.jdk.bin}"/>
+    <property name="module.jdk.classpath.cloudflare_updater" value="${project.jdk.classpath}"/>
+
+    <property name="compiler.args.cloudflare_updater" value="-encoding UTF-8 -source 1.7 ${compiler.args}"/>
+
+    <property name="cloudflare_updater.output.dir"
+              value="${module.cloudflare_updater.basedir}/out/production/Cloudflare Updater"/>
+    <property name="cloudflare_updater.testoutput.dir"
+              value="${module.cloudflare_updater.basedir}/out/test/Cloudflare Updater"/>
+
+    <path id="cloudflare_updater.module.bootclasspath">
+        <!-- Paths to be included in compilation bootclasspath -->
+    </path>
+
+    <path id="cloudflare_updater.module.production.classpath">
+        <path refid="${module.jdk.classpath.cloudflare_updater}"/>
+        <path refid="library.args4j-2.0.21.classpath"/>
+    </path>
+
+    <path id="cloudflare_updater.runtime.production.module.classpath">
+        <pathelement location="${cloudflare_updater.output.dir}"/>
+        <path refid="library.args4j-2.0.21.classpath"/>
+    </path>
+
+    <path id="cloudflare_updater.module.classpath">
+        <path refid="${module.jdk.classpath.cloudflare_updater}"/>
+        <pathelement location="${cloudflare_updater.output.dir}"/>
+        <path refid="library.args4j-2.0.21.classpath"/>
+    </path>
+
+    <path id="cloudflare_updater.runtime.module.classpath">
+        <pathelement location="${cloudflare_updater.testoutput.dir}"/>
+        <pathelement location="${cloudflare_updater.output.dir}"/>
+        <path refid="library.args4j-2.0.21.classpath"/>
+    </path>
+
+
+    <patternset id="excluded.from.module.cloudflare_updater">
+        <patternset refid="ignored.files"/>
+    </patternset>
+
+    <patternset id="excluded.from.compilation.cloudflare_updater">
+        <patternset refid="excluded.from.module.cloudflare_updater"/>
+    </patternset>
+
+    <path id="cloudflare_updater.module.sourcepath">
+        <dirset dir="${module.cloudflare_updater.basedir}">
+            <include name="src"/>
+        </dirset>
+    </path>
+
+
+    <target name="compile.module.cloudflare_updater"
+            depends="compile.module.cloudflare_updater.production,compile.module.cloudflare_updater.tests"
+            description="Compile module Cloudflare Updater"/>
+
+    <target name="compile.module.cloudflare_updater.production" depends="register.custom.compilers"
+            description="Compile module Cloudflare Updater; production classes">
+        <mkdir dir="${cloudflare_updater.output.dir}"/>
+        <javac2 destdir="${cloudflare_updater.output.dir}" debug="${compiler.debug}"
+                nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true"
+                executable="${module.jdk.bin.cloudflare_updater}/javac">
+            <compilerarg line="${compiler.args.cloudflare_updater}"/>
+            <bootclasspath refid="cloudflare_updater.module.bootclasspath"/>
+            <classpath refid="cloudflare_updater.module.production.classpath"/>
+            <src refid="cloudflare_updater.module.sourcepath"/>
+            <patternset refid="excluded.from.compilation.cloudflare_updater"/>
+        </javac2>
+
+        <copy todir="${cloudflare_updater.output.dir}">
+            <fileset dir="${module.cloudflare_updater.basedir}/src">
+                <patternset refid="compiler.resources"/>
+                <type type="file"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="compile.module.cloudflare_updater.tests"
+            depends="register.custom.compilers,compile.module.cloudflare_updater.production"
+            description="compile module Cloudflare Updater; test classes" unless="skip.tests"/>
+
+    <target name="clean.module.cloudflare_updater" description="cleanup module">
+        <delete dir="${cloudflare_updater.output.dir}"/>
+        <delete dir="${cloudflare_updater.testoutput.dir}"/>
+    </target>
+</project>
