@@ -40,7 +40,7 @@ using the IP of their computer.</p>
 
 <a id="windows-operating-system-if-you-run-the-executeable" class="anchor" href="#windows-operating-system-if-you-run-the-executeable" aria-hidden="true"><span class="octicon octicon-link"></span></a>Windows operating system if you run the executeable.
 
-<h4>
+<h4 id="help">
 <a id="how-to-use-1" class="anchor" href="#how-to-use-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h4>
 
 <h6>
@@ -83,7 +83,7 @@ Click on the record/or the insides of it and double click/press enter/ space and
 
 <p>In order to edit the update interval double click the updating record.</p>
 
-<h3>
+<h3 id="about">
 <a id="notes" class="anchor" href="#notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Notes</h3>
 
 <p>This program is just a tool and has no relations in any way with <a href="http://cloudflare.com">CloudFlare</a> nor does it have any affilliation, this program is made for the sole purpose of using the cloudflare API as a DYNAMIC DNS mainly for simple users.
