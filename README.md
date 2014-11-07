@@ -89,3 +89,5 @@ Click on the record/or the insides of it and double click/press enter/ space and
 <p>This program is just a tool and has no relations in any way with <a href="http://cloudflare.com">CloudFlare</a> nor does it have any affilliation, this program is made for the sole purpose of using the cloudflare API as a DYNAMIC DNS mainly for simple users.
 You use this program at your own risk.</p>
 
+I hereby publish this program under the <a href="https://github.com/vasilevich/CloudflareUpdater/blob/master/LICENSE">MIT licenese</a>
+
