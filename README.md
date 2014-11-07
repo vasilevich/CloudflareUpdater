@@ -34,11 +34,11 @@ using the IP of their computer.</p>
 <h4>
 <a id="basic-requirements" class="anchor" href="#basic-requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Requirements:</h4>
 
-<h5>
-<a id="java-virtual-machine-similar-to-16-or-higherlesser-ones-might-work-but-havent-tested" class="anchor" href="#java-virtual-machine-similar-to-16-or-higherlesser-ones-might-work-but-havent-tested" aria-hidden="true"><span class="octicon octicon-link"></span></a>Java Virtual Machine similar to 1.6 or higher(Lesser ones might work, but haven't tested).</h5>
 
-<h5>
-<a id="windows-operating-system-if-you-run-the-executeable" class="anchor" href="#windows-operating-system-if-you-run-the-executeable" aria-hidden="true"><span class="octicon octicon-link"></span></a>Windows operating system if you run the executeable.</h5>
+<a id="java-virtual-machine-similar-to-16-or-higherlesser-ones-might-work-but-havent-tested" class="anchor" href="#java-virtual-machine-similar-to-16-or-higherlesser-ones-might-work-but-havent-tested" aria-hidden="true"><span class="octicon octicon-link"></span></a>Java Virtual Machine similar to 1.6 or higher(Lesser ones might work, but haven't tested).
+
+
+<a id="windows-operating-system-if-you-run-the-executeable" class="anchor" href="#windows-operating-system-if-you-run-the-executeable" aria-hidden="true"><span class="octicon octicon-link"></span></a>Windows operating system if you run the executeable.
 
 <h4>
 <a id="how-to-use-1" class="anchor" href="#how-to-use-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h4>
