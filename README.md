@@ -40,8 +40,8 @@ using the IP of their computer.</p>
 <h5>
 <a id="windows-operating-system-if-you-run-the-executeable" class="anchor" href="#windows-operating-system-if-you-run-the-executeable" aria-hidden="true"><span class="octicon octicon-link"></span></a>Windows operating system if you run the executeable.</h5>
 
-<h5>
-<a id="how-to-use-1" class="anchor" href="#how-to-use-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h5>
+<h4>
+<a id="how-to-use-1" class="anchor" href="#how-to-use-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h4>
 
 <h6>
 <a id="step-1" class="anchor" href="#step-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 1:</h6>
