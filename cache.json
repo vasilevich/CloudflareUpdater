@@ -1,0 +1,1 @@
+{"autoUpdatingRecords":[],"username":"Your email here","token":"Your token here","update_duckip_api":true,"autoStartup":false,"a=zone_load_multi&email=Your+email+here&tkn=Your+token+here":"{\"result\":\"error\",\"msg\":\"Invalid token or email\",\"err_code\":\"E_UNAUTH\"}"}
