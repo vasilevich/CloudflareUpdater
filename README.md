@@ -4,7 +4,7 @@
 
 <p>This program allows windows/linux(untested) users to automatically update the records in their domains 
 using the IP of their computer.</p>
-
+<p>TYou have to have a <a href="https://www.cloudflare.com/sign-up">Cloudflare account</a> with active domains in order to use this tool.</p>
 <h3>
 <a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to use</h3>
 
